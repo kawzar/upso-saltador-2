@@ -65,8 +65,7 @@ public class Player : MonoBehaviour
 
     public void OnPerder()
     {
-        transform.DOShakeScale(0.25f).OnComplete(() =>
-        GetComponent<Collider2D>().enabled = false);
+       //TODO
     }
 
     private void OnDrawGizmos()
